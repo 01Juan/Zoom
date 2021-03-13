@@ -32,12 +32,17 @@ h1 {
   text-align: center;
 }
 
-.dadosEntrada, .salas {
+.dadosEntrada, .criarBotoes, .salas {
   display: grid;
   gap: 20px;
   grid-template-columns: max-content;
   justify-content: center;
   margin-top: 45px;
+}
+
+.criarBotoes {
+  grid-template-columns: max-content max-content;
+  margin-top: 15px;
 }
 
 .entrada {
