@@ -40,6 +40,10 @@ h1 {
   margin-top: 45px;
 }
 
+.salas {
+  grid-template-columns: max-content auto;
+}
+
 .criarBotoes {
   grid-template-columns: max-content max-content;
   margin-top: 15px;
@@ -92,6 +96,10 @@ label {
 
 button {
   padding: 5px;
+}
+
+.salas button {
+  color: var(--corVermelho01);
 }
 
 /* 
